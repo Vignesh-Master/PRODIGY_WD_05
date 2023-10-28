@@ -101,3 +101,45 @@ body{
     display: none;
 }
 
+
+@media (max-width: 490px) {
+    .search {
+        flex-direction: row;
+        justify-content: center; 
+    }
+
+    .search input {
+        width: auto; 
+        margin-right: 16px; 
+        margin-bottom: 0; 
+    }
+
+    .search button {
+        width: 60px;
+        height: 60px; 
+    }
+
+    .weather h1 {
+        font-size: 40px;
+    }
+
+    .weather h2 {
+        font-size: 25px;
+    }
+
+    .weather-icon {
+        width: 100px;
+    }
+
+    .details {
+        margin-top: 20px;
+    }
+
+    .col img {
+        width: 25px;
+    }
+
+    .humidity, .wind {
+        font-size: 20px;
+    }
+}
